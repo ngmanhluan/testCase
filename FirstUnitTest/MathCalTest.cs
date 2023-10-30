@@ -14,7 +14,7 @@ namespace FirstUnitTest
             Assert.Equal(expected: expectedValue, actual: actualValue);
         }
         [Fact]
-        public void TestDivde2Numbers()
+        public void TestDivide2Numbers()
         {
             MathCal cal = new MathCal();
             int expectedValue = 6;
@@ -23,13 +23,17 @@ namespace FirstUnitTest
             Assert.Equal(expected: expectedValue, actual: actualValue);
         }
         [Fact]
-        public void TestDivde2Numbers2() {
+        public void TestDivide2Numbers2() {
             MathCal cal = new MathCal();                      
             Assert.Equal(expected: 3.5, actual: cal.devide2Numbers(7, 2));
         }
-        public void TestDivdeByZero()
+        [Fact]
+        public void TestDivideByZero()
         {
             MathCal cal = new MathCal();
+            string expectedErrorMessage = "Error Devide By Zero";
+            var exResult = Assert.Throws<ArithmeticException>(()=>cal.devide2Numbers(2,0));
+            Assert.Equal(expected: expectedErrorMessage, exResult.Message);
 
         }
     }   
