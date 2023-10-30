@@ -8,7 +8,10 @@
         public int a {get; set; }
         public int b { get; set; }
         public int sum2Numbers(int a, int b) => a + b;
-        public int devide2Numbers(int a, int b) { return a / b; }
+        public double devide2Numbers(int a, int b)
+        { 
+            return (double) a / b; 
+        }
     }
 
 }

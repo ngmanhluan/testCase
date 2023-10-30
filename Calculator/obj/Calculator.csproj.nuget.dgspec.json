@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\manhl\\Downloads\\C#\\Calculator Unit Test\\Calculator\\Calculator.csproj": {}
+    "C:\\Users\\manhl\\Downloads\\C#\\Calculator Unit Test\\testCase\\Calculator\\Calculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\manhl\\Downloads\\C#\\Calculator Unit Test\\Calculator\\Calculator.csproj": {
+    "C:\\Users\\manhl\\Downloads\\C#\\Calculator Unit Test\\testCase\\Calculator\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manhl\\Downloads\\C#\\Calculator Unit Test\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "C:\\Users\\manhl\\Downloads\\C#\\Calculator Unit Test\\testCase\\Calculator\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "C:\\Users\\manhl\\Downloads\\C#\\Calculator Unit Test\\Calculator\\Calculator.csproj",
+        "projectPath": "C:\\Users\\manhl\\Downloads\\C#\\Calculator Unit Test\\testCase\\Calculator\\Calculator.csproj",
         "packagesPath": "C:\\Users\\manhl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manhl\\Downloads\\C#\\Calculator Unit Test\\Calculator\\obj\\",
+        "outputPath": "C:\\Users\\manhl\\Downloads\\C#\\Calculator Unit Test\\testCase\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
